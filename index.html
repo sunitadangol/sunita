@@ -1,0 +1,233 @@
+<html>
+	<head>
+	<title>LMF</title>
+	</head>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<body>
+
+		<div class="wrapper">
+
+
+
+			<div id ="home"></div>
+			<div class="header">
+			
+				<div class="logo">
+					<img src="logo.png" style="width: 70%">
+				</div>
+
+				<div class="navigation">
+					<ul>
+						<li><a href="#home">Home</a></li>
+
+						<li class="menu"><a href="#about">About
+							<div class="dropdown-menu">
+								<ul>
+									<li>Company Profile</li>
+									<li>Vision</li>
+									<li>Out Team</li>
+								</ul>
+							</div>
+							</a>
+						</li>	
+
+						<li class="menu"><a href="#product">Product
+							<div class="dropdown-menu">
+								<ul>
+									<li>Eye Make Up</li><br/>
+									<li>Lips Make Up</li><br/>
+									<li>Foundation</li><br/>
+								</ul>
+							</div>
+							</a>
+						</li>		
+						<li id="menu"><a href=#contact>Contact</a></li>	
+					</ul>
+				</div>
+			</div>	
+
+			<div class="bullet">
+				<input type="radio" name="button">
+				<input type="radio" name="button">
+				<input type="radio" name="button">
+			</div>
+
+			<div class="image">
+				<div class="slogan">We Love<br/>CONFIDENT MAKEUP</div>
+			</div>
+
+			<div id ="about"></div>
+			<div class="aboutus">About US</div>
+
+			<div class="container">
+
+				<div class="left-container">
+					<div class="icon">
+					<img src="icon1.png">
+					</div>
+					<br/>
+					<h4>Heading  Lorem ipsum dolor sit amet</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo	consequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non</p>
+					<div class="button">
+					<br/><button type="more" width="100px">read more</button>
+					</div>
+				</div>
+
+				<div class="center-container">
+					<div class="icon">
+					<img src="icon2.png">
+					</div>
+					<br/>
+					<h4>Heading  Lorem ipsum dolor sit amet</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo	consequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non</p>
+
+					<div class="button">
+					<br/><button type="more" width="100px">read more</button>
+					</div>
+				</div>
+
+				<div class="right-container">
+					<div class="icon">
+					<img src="icon3.png">
+					</div>
+					<br/>
+					<h4>Heading  Lorem ipsum dolor sit amet</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo	consequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non</p>
+					
+					<div class="button">
+					<br/><button type="more" width="100px">read more</button>
+					</div>
+				</div>
+
+			</div>
+
+		<div id="product"></div>		
+		<div class="Product">Product
+
+
+			<div class="inner-container">
+
+				<div class="left-innercontainer">
+					<img src="left-image.jpg">
+				</div>
+
+				<div class="right-innercontainer">
+
+					<div class="top-innercontainer">
+						<img src="right-image1.jpg">
+					</div>
+					<div class="buttom-innercontainer">
+						<img src="right-image2.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+
+			<div id="contact"></div>
+
+			<div class="footer">
+				<div class="contact">
+					<h3>Contact Us</h3>
+					
+					<br/>T:  +5711 (0) 1322 0000
+
+					<br/>E: sakuralang@.co.cn
+
+					<br/>Colon Park, Crossways
+					<br/>Business Park, Greenhouse
+					<br/>Beijing
+
+				</div>
+
+				<div class="send">
+					<form>
+					<input type="text" Name="" placeholder="Name">
+					<input type="text" Name="" placeholder="Address">
+					<input type="text" Name="" placeholder="Contact No.">
+					<button type="submit">Submit</button>
+					</form>
+				</div>
+
+				<div class="copywrite">
+					<hr/>
+
+					<div class="copywrite-text"><h4>copywrite:lmf.com/sunit.dangol2017</h4></div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript">
+			//$(document).ready(function(){
+			//	alert("jquery check");
+			//	});	
+
+		
+
+
+			$(function(){
+
+			$(".button").click(function(){
+				$(this).parent().find("p").toggle(2000);
+		
+
+			//$(".button").click(function(){
+
+//				if($(this).html()=="read more"){
+//					$(".button").parent().find("p").css()"display","blcok")
+//					$("this").html("read less")
+//			}else if($(this).html()=="read less"){
+//					$(".button").parent().find("p").css()"display","none")
+//					$("this").html("read more ");
+//			}
+			});
+
+
+
+			$(".navigation .menu").hover(function(){
+				$(this).find(".dropdown-menu").css("display", "block");
+
+			}, function(){
+				$(this).find(".dropdown-menu").css("display","none");
+			});
+
+
+
+			$('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      console.log(this.hash.slice(1) );
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        var destSelect="#"+this.hash.slice(1);
+      	 console.log(destSelect);
+      	$(destSelect).css("color","blue");
+
+        return false;
+      }
+      	
+
+    }
+
+  });
+
+		});
+
+
+		</script>
+
+
+	</body>
+
+</html>
